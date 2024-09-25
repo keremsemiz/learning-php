@@ -1,18 +1,16 @@
 <?php
-    echo"I love Pizza <br>";
-    echo"It's really good!";
-    // This is a comment
-?>
+    $firstname = "John";
+    $secondname = "Smith";
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <br>
-    <button>Order Pizza</button>
-</body>
-</html>
+    $profession = "Programmer";
+    $company = "Microsoft";
+    $age = 47;
+    $salary = $age * 4;
+
+    echo"{$firstname} <br>";
+    echo"{$secondname} <br>";
+    echo"{$profession} <br>";
+    echo"{$company} <br>";
+    echo"{$age} <br>";
+    echo"{$salary}€ <br>";
+?>
